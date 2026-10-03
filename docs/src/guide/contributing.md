@@ -3,7 +3,8 @@
 
 # Contributing
 
-Thanks for helping improve Gaze. This guide covers how to propose changes, what to test, and what to avoid when working on authentication, PAM, packaging, and docs.
+Thanks for helping with Gaze. If you're planning a change, start here for setup,
+testing, and what we need in a pull request.
 
 For source builds and component-specific setup, start with the [development guide](/guide/development).
 
@@ -182,7 +183,8 @@ bun run docs:build
 | Feature request | A new capability, config key, desktop integration, or distribution. |
 | Documentation | Docs that are wrong, missing, outdated, or unclear. |
 
-The forms ask for what we would otherwise have to come back and ask for, which is the slowest part of resolving a report. Every field exists because a past issue stalled without it.
+Please fill in the details the form asks for. Having your setup and logs up front
+helps us spend less time asking follow-up questions.
 
 ### What a bug report needs
 
