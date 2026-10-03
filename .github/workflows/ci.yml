@@ -129,7 +129,25 @@ jobs:
           node-version: "24"
 
       - name: Test supported GNOME Shell versions
-        run: node scripts/test-gnome-shell.mjs
+        run: node scripts/test-gnome.mjs
+
+  kde:
+    name: KDE
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Test supported KDE distributions
+        run: node scripts/test-kde.mjs
 
   openvino:
     name: OpenVINO
