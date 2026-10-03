@@ -36,8 +36,8 @@ features:
     details: Add or remove face profiles, test recognition, and change settings from the terminal or GTK app.
     link: /guide/cli
     linkText: See the CLI
-  - title: On your machine
-    details: Face templates stay on your machine. The daemon runs recognition locally and talks to the apps over DBus.
+  - title: Local-first
+    details: Face templates stay on your machine. The daemon runs recognition locally and talks to the CLI, GUI, and PAM module over DBus.
     link: /guide/how-it-works
     linkText: How it works
   - title: Troubleshooting

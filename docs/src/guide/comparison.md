@@ -15,9 +15,6 @@ We put this comparison together to show where Gaze differs from
 [Biopass](https://github.com/TickLabVN/biopass). If we've missed something or
 got a detail wrong, [let us know](https://github.com/GunduLabs/gaze/issues).
 
-We last checked the other projects' READMEs on **2026-09-18**. Check their
-current docs too if you're relying on a particular feature.
-
 ## At a glance
 
 | | **Gaze** | **Howdy** | **Visage** | **Biopass** |
@@ -67,9 +64,10 @@ password fallback stays recommended everywhere, *Gaze included*.
 
 ## A note on the alternatives
 
-Howdy has been around longer and is widely packaged. Visage is another Rust
-daemon with IR support, and its docs explain the limits of its liveness check.
+Any of the three will give you working face authentication. Howdy came first
+and is the most widely packaged. Visage is another Rust daemon with IR support,
+and its docs explain the limits of its liveness check.
 Biopass supports fingerprints as well as faces and has a GUI.
 
-We maintain Gaze, but we'd rather you use what works for your hardware and
-desktop. Check the security limitations of whichever project you choose.
+We maintain Gaze, but we'd rather you use what fits your hardware, desktop,
+and threat model. Check the security limitations of whichever project you choose.

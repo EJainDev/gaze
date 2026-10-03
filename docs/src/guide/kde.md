@@ -44,8 +44,8 @@ up under "KDE lock screen".
 `gaze-kde` adds a **Face Unlock** entry to System Settings. It opens `gaze-gui`,
 where you can manage enrolled faces and all of Gaze's settings.
 
-We use the same GTK app on KDE rather than maintain a second settings UI, so it
-doesn't match Plasma's styling. You'll need `gaze-gui` installed for the entry
+It's the GTK app, so it doesn't match Plasma's styling. We chose one app with
+every feature over a Plasma-native page that only covers some of them. You'll need `gaze-gui` installed for the entry
 to work; the one-line installer includes it.
 
 ## How the lock screen works

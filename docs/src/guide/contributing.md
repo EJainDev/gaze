@@ -3,8 +3,7 @@
 
 # Contributing
 
-Thanks for helping with Gaze. If you're planning a change, start here for setup,
-testing, and what we need in a pull request.
+Thanks for helping improve Gaze. This guide covers how to propose changes, what to test, and what to avoid when working on authentication, PAM, packaging, and docs.
 
 For source builds and component-specific setup, start with the [development guide](/guide/development).
 

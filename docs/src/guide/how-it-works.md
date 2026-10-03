@@ -3,8 +3,7 @@
 
 # How Gaze Works
 
-Here's what happens between opening the camera and accepting or rejecting a face.
-You can skip this page if you just want to set up Gaze.
+This page explains the internals of Gaze's facial authentication pipeline. You don't need it to use Gaze, but it helps understand why it behaves the way it does.
 
 ## Security & Liveness
 
